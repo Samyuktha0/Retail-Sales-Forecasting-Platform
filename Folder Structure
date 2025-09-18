@@ -1,0 +1,10 @@
+retail-sales-forecasting/
+├── notebooks/
+│   └── spark_forecasting.ipynb
+├── adf_pipeline/
+│   └── pipeline_config.json
+├── sql/
+│   └── retail_schema.sql
+├── data/
+│   └── retail_sales.csv
+├── README.md
