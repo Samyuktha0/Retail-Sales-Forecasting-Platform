@@ -1,0 +1,11 @@
+{
+  "name": "RetailSalesETL",
+  "activities": [
+    {
+      "name": "CopyFromBlob",
+      "type": "Copy",
+      "inputs": ["BlobDataset"],
+      "outputs": ["SQLDataset"]
+    }
+  ]
+}
